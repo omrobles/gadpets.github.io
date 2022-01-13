@@ -1,0 +1,81 @@
+/* Pantallas grandez */
+@media only screen and (max-width: 1200px) {
+    .jumbo{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{
+        padding: 0 2%;
+    }
+}
+
+/* Pantallas medianas de 768px a 1023px */
+@media only screen and (max-width: 1023px){
+    body{font-size: 18px;}
+    section{padding: 60px 0;}
+    nav{
+        font-size: 90%;
+    }
+    .jumbo {
+        font-size: 85%;
+    }
+    .product-card .back{
+        line-height: 15px;
+        padding-top: 20px;
+    }
+    .content{font-size: 80%;}
+}
+
+/* Pantallas chicas de 481px a 767px */
+@media only screen and (max-width: 767px){
+    body{font-size: 16px;}
+    section{padding: 30px 0;}
+    .row, 
+    .jumbo{
+        padding: 0 4%;
+        font-size: 70%;
+    }
+    .logo{height: 100px;}
+    form{
+        width: 50%;
+    }
+    .text-box{
+        margin-bottom: 3px;
+        padding: 5px 6px;
+        width: 100%;
+        font-size: 110%;
+    }
+    .btn{
+        width: 50%;
+        padding: 3px 5px;
+        margin-top: 3px;
+        font-size: 120%;
+        height: 30px;
+    }
+    .bars{display: block;
+    margin-top: 30px;}
+    .main-nav{display: none;}
+    .section-products .row,
+    .blog-content .row{font-size: 90%;}
+    .section-products p{margin-bottom: 10px;}
+    .products-showcase{flex-direction: column;}
+    .product-card{width: 100%; transition: none; }
+    .blog-container{flex-direction: column;}
+    .blog-card{width: 100%;}
+    .blog-card h2{padding-top: 10px; margin-bottom: 5px; }
+    footer p{font-size: 60%;}
+    footer img{height: 8px;}
+    .content h2, .content p{padding-left: 0; font-size: 120%;}
+}
+
+/* Pantallas menorea a 80px */
+@media only screen and (max-width: 480px){
+    .btn{font-size: 90%;}
+    .section-products .row,
+    .blog-content .row{font-size: 70%;}
+    .blog-content p{margin-bottom: 10px;}
+    .jumbo{font-size: 60%;}
+}
+
+
+
