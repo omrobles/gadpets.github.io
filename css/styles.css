@@ -203,7 +203,7 @@ h2{
 .content h2{
     font-size: 150%;
     text-align: justify;
-    padding-top: 90px;
+    padding-top: 10%;
     padding-left: 20px;
 }
 
@@ -232,4 +232,55 @@ h2{
     background-color: #3498db;
     color: #fff;
     font-weight: 600;
+}
+
+/* FOOTER */
+footer{
+    max-height: 150px;
+}
+
+.footer-container{
+    display: flex;
+    margin-top: 40px;
+}
+
+.footer-card{
+    width: 50%;
+}
+
+.footer-card li{
+    display: inline;
+    list-style: none;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 80%;
+    border: #555 solid transparent;
+    transition: all 0.5s;
+}
+
+.footer-card li:hover{
+    border: #555 solid 1px;
+    background-color: #555;
+    color: #fff;
+    font-weight: 600;
+}
+
+.footer-card a{
+    float: right;
+    padding-right: 25px;
+    color:#555;
+    font-size: 140%;
+    transition: font-size 0.5s;
+}
+
+.footer-card a:hover{
+    font-size: 100%;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    font-size: 70%;
 }
