@@ -13,10 +13,15 @@ html, body{
     overflow-x: hidden;
 }
 
+
 /* ESTILOS REUSABLES */
 .row{
     max-width: 1140px;
     margin: 0 auto;
+}
+
+section{
+    padding: 70px 0;
 }
 
 /* HEADER */
@@ -88,7 +93,7 @@ header{
 
 .text-box{
     padding: 10px 12px;
-    font-size: 105%;
+    font-size: 80%;
     width: 70%;
     border-radius: 10px;
 }
@@ -112,22 +117,18 @@ header{
 }
 
 /* SECTION PRODUCTS */
-.section-products{
-    margin-top: 70px;
-    margin-bottom: 50px;
-}
-
-.section-products h2{
+h2{
     text-align: center;
     font-size: 200%;
     margin-bottom: 20px;
 }
 
-.section-products p{
+.section-products p,
+.blog-content p{
     font-size: 90%;
     font-weight: 400;
     text-align: center;
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
 
 .products-showcase{
@@ -175,4 +176,60 @@ header{
 .product-container img{
     width: 100%;
     height: auto;
+}
+
+/* BLOG SECTION */
+.blog-content{
+    background-color: #91efca;
+    color: #555;
+}
+
+.blog-container{
+    display: flex;
+}
+
+.blog-card{
+    display: inline;
+    width: 50%;
+    float: left;
+}
+
+.blog-card img,
+.blog-card .content{
+    width: 100%;
+    border-radius: 5%;
+}
+
+.content h2{
+    font-size: 150%;
+    text-align: justify;
+    padding-top: 90px;
+    padding-left: 20px;
+}
+
+.content p{
+    text-align: justify;
+    font-size: 90%;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.content a{
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 70%;
+    background-color: #fff;
+    border: #fff solid 1px;
+    border-radius: 15px;
+    float: right;
+    transition: all 0.5s;
+    color: #000;
+    width: 100px;
+    text-align: center;
+}
+
+.content a:hover{
+    background-color: #3498db;
+    color: #fff;
+    font-weight: 600;
 }
