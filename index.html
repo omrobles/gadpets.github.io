@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GadPets - Accesorios para Mascotas</title>
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </head>
 <body>
     <header>
@@ -17,19 +19,56 @@
             <ul class="main-nav">
                 <li><a href="">Productos</a></li>
                 <li><a href="">Blog</a></li>
-                <li><a href="">Adogtables</a></li>
                 <li><a href="">Ingresa</a></li>
             </ul>
         </nav>
-        <div class="jumbotron">
+        <jumbotron class="jumbo">
             <h1>Los mejores GadPets <br> para tu mascota</h1>
-            <h3>Unete a nuestra comunidad para estar informado de los ultimos gadpets</h3>
+            <h3>Únete a nuestra comunidad para estar <br> informado de los últimos gadpets</h3>
             <form action="">
                 <label for="email"></label>
                 <input class="text-box" type="text" id="email" placeholder="email">
                 <input class="btn" type="button" value="Registrar">
             </form>
-        </div>
+        </jumbotron>
     </header>
+    <section class="section-products ">
+        <div class="row">
+            <h2>Lo mas nuevo</h2>
+            <p>No importa que mascota tengas, aqui encontaras el GadPet perfecto</p>
+        </div>
+        <div class="row products-showcase">
+            <div class="product-card">
+                <a class="product-container side" href=""><img src="img/petFeeder.jpg" alt="Alimentador Automatico"></a>
+                <div class="side back">
+                    <p><strong>AutoFeed</strong><br>Dale de comer a tu mascota desde cualquier lugar</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <a class="product-container side" href=""><img src="img/catFeederToy.jpg" alt="Juguete Gato"></a>
+                <div class="side back">
+                    <p><strong>Pawfun Cats</strong><br> Divertido juguete que mantendra entretenido a tu Michi<br></p>
+                </div>
+            </div>
+            <div class="product-card">
+                <a class="product-container side" href=""><img src="img/catScratcher.png" alt="Rascador Gatos"></a>
+                <div class="side back">
+                    <p><strong>ZenCat</strong><br>Rascador con masajeador para consentir a tu Michi<br></p>
+                </div>
+            </div>
+            <div class="product-card">
+                <a class="product-container" href=""><img src="img/dogFedderToy.jpg" alt="Juguete Perro"></a>
+                <div class="side back">
+                    <p><strong>Ovni Feeder</strong><br> Divertido juguete que mantendra entretenido a tu Lomito<br></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+
+    </section>
+    <footer>
+
+    </footer>
 </body>
 </html>
